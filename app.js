@@ -3,7 +3,7 @@ let amigos =[];
 
 /// Funcion para limpiar la caja ///
 function limpiarCaja(){
-    let valorCaja = document.getElementById('amigo').value = '';;
+    let valorCaja = document.getElementById('amigo').value = '';
 
 }
 
