@@ -19,13 +19,14 @@ Es una aplicación donde el usuario puede agregar nombres y guardarlos en una li
 
 El usuario ingresa el nombre en el campo de texto y presiona el botón **"Agregar"**, el cual llama a la función `agregarAmigo()`. Esta función verifica el contenido del campo de texto:
 
-Si está vacío, muestra una alerta con el mensaje: **"Por favor, inserte un nombre."**. En caso contrario, toma el texto ingresado y lo agrega al array llamado **amigos**. Luego llama a otras dos funones: 
+Si está vacío, muestra una alerta con el mensaje: **"Por favor, inserte un nombre."**. En caso contrario, toma el texto ingresado y lo agrega al array llamado **amigos[]**. Luego llama a otras dos funones: 
 
 -`limpiarCaja()`: Esta función lo que hace es inicializar el campo de texto.
 
--`mostrarLista()` : Esta funcíon lo que hace es mostrar en pantalla todos los nombres que estan guardados en el array **amigos**
+-`mostrarLista()` : Esta funcíon lo que hace es mostrar en pantalla todos los nombres que estan guardados en el array **amigos[]**
 
 **como se elige un nombre al azar**
+El usuario una vez que presione el botón **"Agregar"** se llama a la función `sortearAmigo()`: 
 
-
+-Compara si el array **amigos[]** tiene elementos, si tiene, selecciona uno al azar con `Math.floor(Math.random() * amigos.length)` y muestra su nombre en pantalla. En caso contrario que no tenga ningun elemento muestra una alerta con lo siguiente **"lista vacía"**
 
