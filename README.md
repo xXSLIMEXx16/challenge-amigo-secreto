@@ -23,5 +23,9 @@ Si está vacío, muestra una alerta con el mensaje: **"Por favor, inserte un nom
 
 -`limpiarCaja()`: Esta función lo que hace es inicializar el campo de texto.
 
--`mostrarLista()` :
+-`mostrarLista()` : Esta funcíon lo que hace es mostrar en pantalla todos los nombres que estan guardados en el array **amigos**
+
+**como se elige un nombre al azar**
+
+
 
