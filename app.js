@@ -7,7 +7,7 @@ function agregarAmigo() {
         alert("Por favor, inserte un nombre.");
     } else {
         // Aquí pones lo que quieres hacer con el nombre válido
-        console.log("Nombre ingresado:", nombreamigo);
+        amigos.push(nombreamigo);
     }
 }
 
