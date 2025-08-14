@@ -19,5 +19,5 @@ Es una aplicación donde el usuario puede agregar nombres y guardarlos en una li
 
 -El usuario ingresa el nombre en el campo de texto y presiona el boton **"Agregar"**
 
--Luego se llama a la función <u>agregarAmigo()</u>
+-Luego se llama a la función `agregarAmigo()`
 
