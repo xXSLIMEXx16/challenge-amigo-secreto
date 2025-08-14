@@ -15,8 +15,9 @@ Es una aplicación donde el usuario puede agregar nombres y guardarlos en una li
    - Si se intenta sortear sin nombres en la lista, se muestra un mensaje de alerta.
 
 ## ¿Como funciona el codigo? ##
-**Agregar nombres** 
+**como se agregan nombres** 
 
 -El usuario ingresa el nombre en el campo de texto y presiona el boton **"Agregar"**
--Luego se llama a la función agregarAmigo()
+
+-Luego se llama a la función <u>agregarAmigo()</u>
 
