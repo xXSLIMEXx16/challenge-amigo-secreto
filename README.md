@@ -26,6 +26,7 @@ Si está vacío, muestra una alerta con el mensaje: **"Por favor, inserte un nom
 -`mostrarLista()` : Esta funcíon lo que hace es mostrar en pantalla todos los nombres que estan guardados en el array **amigos[]**
 
 **como se elige un nombre al azar**
+
 El usuario una vez que presione el botón **"Agregar"** se llama a la función `sortearAmigo()`: 
 
 -Compara si el array **amigos[]** tiene elementos, si tiene, selecciona uno al azar con `Math.floor(Math.random() * amigos.length)` y muestra su nombre en pantalla. En caso contrario que no tenga ningun elemento muestra una alerta con lo siguiente **"lista vacía"**
